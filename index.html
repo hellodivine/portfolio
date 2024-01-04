@@ -7,52 +7,81 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- overall container -->
-    <section>
-        <!-- header container -->
-        <div class="h-screen bg-gray-200">
-            <!-- div holding the nav-->
-            <div class="flex flex-col justify-center items-center ml-[190px]">
-                <nav class="pt-7">
-                    <ul class="w-[1200px] h-[69px] justify-center items-center flex" >
-                        <!-- div holding the logo -->
-                        <div class="my-auto mr-auto">
-                            <img class="w-[60%]" src="/asset/div.png" alt="">
-                        </div>
-                        <!-- div for all text -->
-                        <div class="flex mr-64 ">
-                            <li class="active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 "><a href="/index.html">my work.</a></li>
-                            <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/about.html">about.</a></li>
-                            <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/HTML/project.html">archive.</a></li>
-                            <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/HTML/blog.html">resume.</a></li>
-                        </div>
-                    </ul>
-                    <!-- <div class="border-b border-neutral-700 "></div> -->
-                </nav>
+    <header class="h-screen bg-gray-200">
+        <div class="container w-[75%] justify-center sm:mx-auto">
+            <nav class="pt-9 sm:flex sm:justify-between">
+                <img class="w-[90px] justify-center" src="/asset/div.png" alt="">
+                <ul class="hidden sm:flex space-x-9">
+                    <li><a href="">my work.</a></li>
+                    <li><a href="">about.</a></li>
+                    <li><a href="">archive.</a></li>
+                    <li><a href="/asset/Divine Effiong (1).pdf" target="_blank">resume.</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mt-[90px]">
+            <div class="my-auto mx-auto w-[100%] justify-self-center">
+                <p class="mb-5 text-4xl font-semibold text-center">👋 Hi there, I am Divine</p>
+                <!-- <div class="border-b border-neutral-700 w-[80%] "></div> -->
+                <p class="pt-6 text-base text-center w-auto">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, alias? Minima debitis doloremque nemo numquam.
+                </p>
             </div>
-            <!-- div holding the landing page section -->
-            <div class="flex justify-center items-center mt-[90px]">
-                <div class="my-auto">
-                    <div class="w-[457px] h-[203px]">
-                        <p class="mb-5 text-[35px] font-semibold">👋 Hi there, I am Divine</p>
-                        <div class="border-b border-neutral-700 "></div>
-                        <p class="pt-9 text-base">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, alias? Minima debitis doloremque nemo numquam.
-                        </p>
-                    </div>
-                    <div class="flex">
-                        <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-" href="https://"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #3e3e3e;"></i></a></div>
-                        <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-github fa-2xl" style="color: #3e3e3e;"></i></a></div>
-                        <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-16px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #3e3e3e;"></i></a></div>
-                        <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #3e3e3e;"></i></a></div>
-                        <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-regular fa-envelope fa-2xl" style="color: #3e3e3e;"></i></a></div>
-                    </div>
-                </div>
-                <div class="hover:scale-105 bg-white rounded-2xl shadow p-6 my-auto ml-[100px] backdrop-filter backdrop-blur-3xl">
-                    <img class="w-[370px] h-[370px] rounded-xl" src="/asset/divine.jpg" alt="img">
-                </div>
+            <div class="flex justify-center pt-6">
+                <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-" href="https://www.linkedin.com/in/divine-effiong-b9478b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 sm:mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="https://github.com/hellodivine"><i class="fa-brands fa-github fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 sm:mt-[-16px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="https://twitter.com/EffDivine"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 sm:mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="https://wa.me/+2348110026442"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://divineeffiong87@gmail.com"><i class="fa-regular fa-envelope fa-2xl" style="color: #3e3e3e;"></i></a></div>
+            </div>
+            <div class="mt-7 hover:scale-105 bg-white rounded-2xl shadow p-4 my-auto mx-auto backdrop-filter backdrop-blur-3xl w-[350px] h-[350px]">
+                <img class=" rounded-xl" src="/asset/divine.jpg" alt="img">
             </div>
         </div>
-    </section>
+    </header>
+    <!-- header container -->
+    <!-- <div class="h-screen bg-gray-200">
+        div holding the nav
+        <header class="flex justify-center items-center">
+            <nav class="pt-7 container ">
+                <ul class="w-[1200px] h-[69px] justify-center items-center flex" >
+                    div holding the logo
+                    <div class="my-auto mr-auto">
+                        <img class="w-[90px]" src="/asset/div.png" alt="">
+                    </div>
+                    div for all text
+                    <div class="hidden md:flex mr-64 ">
+                        <li class="active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 "><a href="/index.html">my work.</a></li>
+                        <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/about.html">about.</a></li>
+                        <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/HTML/project.html">archive.</a></li>
+                        <li class="m-2 ml-20 py-[1.57rem] text-neutral-700 hover:text-neutral-400 active:font-bold active:text-black active:mb-4 active:mt-2 active:border-b-4 border-black"><a href="/HTML/blog.html">resume.</a></li>
+                    </div>
+                </ul>
+                <div class="border-b border-neutral-700 "></div>
+            </nav>
+        </header>
+        div holding the landing page section
+        <div class="flex justify-center items-center mt-[90px]">
+            <div class="my-auto">
+                <div class="w-[457px] h-[203px]">
+                    <p class="mb-5 text-[35px] font-semibold">👋 Hi there, I am Divine</p>
+                    <div class="border-b border-neutral-700 "></div>
+                    <p class="pt-9 text-base">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, alias? Minima debitis doloremque nemo numquam.
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-" href="https://"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                    <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-github fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                    <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-16px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                    <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mt-[-8px] mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                    <div class="hover:ring-2 hover:ring-slate-400 hover:bg-slate-100 hover:scale-125 mr-7 w-12 h-12 bg-white rounded-xl flex justify-center items-center"><a class="p-5" href="http://"><i class="fa-regular fa-envelope fa-2xl" style="color: #3e3e3e;"></i></a></div>
+                </div>
+            </div>
+            <div class="hover:scale-105 bg-white rounded-2xl shadow p-6 my-auto ml-[100px] backdrop-filter backdrop-blur-3xl">
+                <img class="w-[370px] h-[370px] rounded-xl" src="/asset/divine.jpg" alt="img">
+            </div>
+        </div>
+    </div> -->
 </body>
 </html>
