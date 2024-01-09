@@ -1,8 +1,8 @@
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobile-menu');
+// const hamburger = document.getElementById('hamburger');
+// const mobileMenu = document.getElementById('mobile-menu');
 
 
-hamburger.addEventListener('click', function () {
-    mobileMenu.classList.toggle('hidden');
-});
+// hamburger.addEventListener('click', function () {
+//     mobileMenu.classList.toggle('hidden');
+// });
 
