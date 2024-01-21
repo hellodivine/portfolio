@@ -12,7 +12,7 @@
         <header class="sm:col-span-2 mr-[20px] container text-left sm:w-[75%] sm:justify-center sm:mx-auto pb-4">
             <nav class=" pt-6 sm:pt-9 flex justify-between sm:flex sm:justify-between font-semibold">
                 <img class="w-[70px] h-[20px]" src="/asset/div - Copy.png" alt="">
-                <ul class="bg-opacity-90 sm:flex sm:space-x-10 sm:relative sm:bg-transparent sm:shadow-none sm:z-0 sm:left-0 sm:w-auto sm:p-0 sm:pt-0 sm:space-y-0 z-50 fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[230px] p-[20px]  space-y-12 ">
+                <ul class="hidden bg-opacity-90 sm:flex sm:space-x-10 sm:relative sm:bg-transparent sm:shadow-none sm:z-0 sm:left-0 sm:w-auto sm:p-0 sm:pt-0 sm:space-y-0 z-50 fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[230px] p-[20px]  space-y-12 ">
                     <li class="hover:text-gray-500 active:underline focus:underline"><a href="/index.html">my work.</a></li>
                     <li class="hover:text-gray-500 active:underline focus:underline"><a href="/html/about.html">about.</a></li>
                     <li class="hover:text-gray-500 active:underline focus:underline"><a href="">archive.</a></li>
@@ -41,7 +41,7 @@
 
 
 
-            <div class="mt-7 bg-white rounded-2xl shadow p-4 my-auto mx-auto backdrop-filter backdrop-blur-3xl inline-block">
+            <div class="mt-7 bg-white rounded-2xl shadow p-4 my-auto mx-auto drop-shadow-xl hover:drop-shadow-2xl inline-block">
                 <img class=" rounded-xl  sm:w-[370px] sm:h-[370px]" src="/asset/divine.jpg" alt="img">
             </div>
 
@@ -63,13 +63,47 @@
         </div>
     </section>
 
-    <section class="mt-[150px]">
-        <p>Featured Work</p>
+    <section class="my-[100px] sm:my-[200px] px-[20px] sm:px-0">
+        <p class="sm:w-[1230px] mx-auto mb-12 text-neutral-700 font-normal text-3xl">Featured Work</p>
 
-        <div class="sm:col-span-2 mr-auto sm:flex sm:w-[1130px] justify-center items-center sm:mx-auto sm:my-auto ">
-        <div class="p-2 bg-slate-100 w-[60%] h-[40%] mx-auto">
-            <img class="mx-auto" src="/asset/works.png/INSURE.png" alt="">
+        <div class="sm:w-[1230px] grid grid-cols-2 mr-auto mx-auto justify-center items-center sm:mx-auto sm:my-auto ">
+            
+            <div class="col-span-2 mb-16 w-[95%] mx-auto">
+                <div class="p-2 drop-shadow-xl hover:drop-shadow-2xl bg-slate-50 rounded-lg">
+                    <img class="w-[100%] sm:h-[500px] mx-auto rounded-lg" src="/asset/works.png/INSURE.png"></img>
+                </div>
+                <div class="my-8">
+                    <p class=" text-orange-600 text-3xl font-black border-b border-slate-600 pb-2">INsure</p>
+                    <p class="mt-2">Working on the development of an insurance sales management tool for insurance sales agents.</p>
+                    <br>
+                    <a href="" class="w-[13%] bg-orange-600 px-4 py-3 text-center text-white rounded-3xl drop-shadow-xl hover:drop-shadow-2xl hover:ring-2 ring-orange-200">Learn more <span class="ml-3">></span> </a>
+
+                </div>
+            </div>
+            <!-- <div class="col-span-1 m-3 mx-auto  bg-black w-[90%] h-[250px]"></div>
+            <div class="col-span-1 m-3 mx-auto bg-black w-[90%] h-[250px]"></div> -->
         </div>
     </section>
+
+    <footer class="bg-slate-100 grid grid-cols-2 gap-4 pt-[50px] p-[30px] px-[100px]">
+        <div class="col-span-1">
+            <p class="mb-3 text-neutral-700 font-bold text-4xl">Thanks for stopping by!!</p>
+            <p class="text-xl text-neutral-500">
+                Got questions, comments. or feedbacks? <br> Feel free to reach out and contact me.
+            </p>
+        </div>
+        <div class="col-span-1">
+            <p class="mb-3 text-neutral-700 font-bold text-2xl">Navigation.</p>
+            <ul class="text-lg sm:relative sm:bg-transparent sm:shadow-none sm:z-0 sm:left-0 sm:w-auto sm:p-0 sm:pt-0 sm:space-y-0 z-50 fixed top-0 right-0 bottom-0 bg-white shadow-2xl w-[230px] p-[20px]  space-y-12 ">
+                <li class="hover:text-gray-500 active:underline focus:underline"><a href="/index.html">my work.</a></li>
+                <li class="hover:text-gray-500 active:underline focus:underline"><a href="/html/about.html">about.</a></li>
+                <li class="hover:text-gray-500 active:underline focus:underline"><a href="">archive.</a></li>
+                <li class="hover:text-gray-500 active:underline focus:underline"><a href="/asset/Divine Effiong (1).pdf" target="_blank">resume.</a></li>
+            </ul>
+        </div>
+        <div class="col-span-2 py-6 text-gray-400">
+            <p>&copy; 2024 @ divine effiong </p>
+        </div>
+    </footer>
 </body>
 </html>
